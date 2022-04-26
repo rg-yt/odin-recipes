@@ -1,0 +1,60 @@
+/* *{
+    border: 1px solid lime;
+} */
+
+body{
+    background-image:url("https://img.freepik.com/free-vector/yellow-lemon-background_53876-93597.jpg?w=2000");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Parisienne';
+
+    
+}
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.title h1{
+    text-align: center;
+    padding: 0;
+    margin: 0%;
+    font-size: 48px;
+}
+hr{
+  color: hsla(169, 81%, 34%, 0.842);  
+  max-width: 700px;
+}
+.card{
+    max-width: 200px;
+}
+p{
+    text-align: center;
+    padding: 0;
+    margin: 0%;
+    font-size: 24px;
+}
+section{
+    background-color: hsl(169, 100%, 75%);
+    border-radius: 20px;
+    width: 60%;
+    min-width:700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+.keylime{
+    height: 301px;
+}
